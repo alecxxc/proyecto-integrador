@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".second_activity">
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="414dp"
+        android:layout_height="79dp"
+        app:srcCompat="@drawable/negro"
+        tools:layout_editor_absoluteY="656dp" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="63dp"
+        android:layout_height="40dp"
+        app:srcCompat="@drawable/casa"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="676dp" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="65dp"
+        android:layout_height="42dp"
+        app:srcCompat="@drawable/u"
+        tools:layout_editor_absoluteX="173dp"
+        tools:layout_editor_absoluteY="677dp" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="81dp"
+        android:layout_height="81dp"
+        app:srcCompat="@drawable/eventos_icono"
+        tools:layout_editor_absoluteX="165dp"
+        tools:layout_editor_absoluteY="548dp" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="63dp"
+        android:layout_height="40dp"
+        app:srcCompat="@drawable/personalizar"
+        tools:layout_editor_absoluteX="314dp"
+        tools:layout_editor_absoluteY="679dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
