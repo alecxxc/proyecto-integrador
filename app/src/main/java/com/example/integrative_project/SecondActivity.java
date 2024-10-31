@@ -9,7 +9,7 @@ import com.example.integrative_project.databinding.ActivitySecondBinding;
 import com.example.integrative_project.R;
 
 
-//prueba commit
+//prueba commit2
 public class SecondActivity extends AppCompatActivity {
 
     private ActivitySecondBinding binding;
