@@ -5,45 +5,28 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".second_activity">
+    android:background="#DCB6B6"
+    tools:context=".SecondActivity">
 
-    <ImageView
-        android:id="@+id/imageView13"
-        android:layout_width="414dp"
-        android:layout_height="79dp"
-        app:srcCompat="@drawable/negro"
-        tools:layout_editor_absoluteY="656dp" />
+    <FrameLayout
+        android:id="@+id/pantalla"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
 
-    <ImageView
-        android:id="@+id/imageView14"
-        android:layout_width="63dp"
-        android:layout_height="40dp"
-        app:srcCompat="@drawable/casa"
-        tools:layout_editor_absoluteX="39dp"
-        tools:layout_editor_absoluteY="676dp" />
+    </FrameLayout>
 
-    <ImageView
-        android:id="@+id/imageView17"
-        android:layout_width="65dp"
-        android:layout_height="42dp"
-        app:srcCompat="@drawable/u"
-        tools:layout_editor_absoluteX="173dp"
-        tools:layout_editor_absoluteY="677dp" />
-
-    <ImageView
-        android:id="@+id/imageView18"
-        android:layout_width="81dp"
-        android:layout_height="81dp"
-        app:srcCompat="@drawable/eventos_icono"
-        tools:layout_editor_absoluteX="165dp"
-        tools:layout_editor_absoluteY="548dp" />
-
-    <ImageView
-        android:id="@+id/imageView19"
-        android:layout_width="63dp"
-        android:layout_height="40dp"
-        app:srcCompat="@drawable/personalizar"
-        tools:layout_editor_absoluteX="314dp"
-        tools:layout_editor_absoluteY="679dp" />
-
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/button_nav_menu" />
 </androidx.constraintlayout.widget.ConstraintLayout>
+
+

@@ -19,7 +19,7 @@ private EditText pt_nombre, et_contraseña;
     }
 
     public void Ingresar (View view){
-        Intent i = new Intent(this, second_activity.class);
+        Intent i = new Intent(this, SecondActivity.class);
         startActivity(i);
     }
 }
