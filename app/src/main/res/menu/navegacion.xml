@@ -8,6 +8,7 @@
         android:id="@+id/bottom_nav_account"
         android:icon="@drawable/ic_account"
         android:title="Eventos" />
+
     <item
         android:id="@+id/bottom_nav_setting"
         android:icon="@drawable/ic_setting"
