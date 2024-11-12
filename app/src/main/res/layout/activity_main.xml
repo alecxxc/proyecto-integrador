@@ -26,6 +26,8 @@
             android:id="@+id/bottomNavigation"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            app:itemIconTint="#F09F92"
+            app:itemTextColor="#F09F92"
             app:menu="@menu/navegacion"
             android:background="#5e323a"/>
     </LinearLayout>

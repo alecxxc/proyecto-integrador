@@ -7,55 +7,63 @@
     android:background="#F09F92"
     tools:context="com.example.integrative_project.InicioFragmento">
 
+    <View
+        android:id="@+id/rectangle5"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/colorborde"
+        app:layout_constraintBottom_toTopOf="@+id/horizontalLine"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ajuste"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangle5"
+        app:layout_constraintEnd_toEndOf="@+id/rectangle5"
+        app:layout_constraintStart_toStartOf="@+id/rectangle5"
+        app:layout_constraintTop_toTopOf="@+id/rectangle5" />
+
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/homeTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="137dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
         android:text="POPULAR"
         android:textColor="@color/white"
         android:textSize="35sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView16"
+        app:layout_constraintHorizontal_bias="0.336"
+        app:layout_constraintStart_toEndOf="@+id/imageView17"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <View
-        android:id="@+id/horizontalLine"
-        android:layout_width="0dp"
-        android:layout_height="2dp"
-        android:layout_marginBottom="649dp"
-        android:background="#5e323a"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView16" />
 
     <ImageView
-        android:id="@+id/imageView16"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="65dp"
-        android:layout_marginBottom="32dp"
+        android:id="@+id/imageView17"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="15dp"
         android:src="@drawable/menu"
-        app:layout_constraintBottom_toTopOf="@+id/horizontalLine"
-        app:layout_constraintEnd_toStartOf="@+id/homeTextView"
-        app:layout_constraintStart_toEndOf="@+id/horizontalLine2"
-        app:layout_constraintTop_toTopOf="parent" />
-
+        app:layout_constraintBottom_toTopOf="@+id/horizontalLineeventos"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/homeTextView" />
 
     <View
-        android:id="@+id/horizontalLine2"
+        android:id="@+id/horizontalLineeventos"
         android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginEnd="22dp"
+        android:layout_height="4dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="14dp"
         android:background="#5e323a"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/imageView16"
+        app:layout_constraintBottom_toTopOf="@+id/homeTextView4"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
-
-
+        app:layout_constraintTop_toBottomOf="@+id/homeTextView" />
 </androidx.constraintlayout.widget.ConstraintLayout>

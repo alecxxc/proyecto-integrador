@@ -18,23 +18,23 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // Initializing widgets
+
         frameLayout = findViewById(R.id.frameLayout);
         bottomNavigationView = findViewById(R.id.bottomNavigation);
 
-        // Setting default fragment
+
         if (savedInstanceState == null) {
             getSupportFragmentManager().beginTransaction().replace(R.id.frameLayout, new InicioFragmento()).commit();
         }
 
-        // Bottom Navigation
+
         bottomNavigationView.setOnItemSelectedListener(new NavigationBarView.OnItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
-                // Getting MenuItem id in a variable
+
                 int id = menuItem.getItemId();
 
-                // If else if statement for fragment
+
                 if (id == R.id.bottom_nav_home) {
                     getSupportFragmentManager().beginTransaction().replace(R.id.frameLayout, new InicioFragmento()).commit();
                 } else if (id == R.id.bottom_nav_account) {
