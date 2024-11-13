@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Estado seleccionado: ícono colorido -->
+    <item android:color="#F09F92" android:state_checked="true" /> <!-- Color cuando está seleccionado -->
+    <!-- Estado no seleccionado: ícono en gris -->
+    <item android:color="#5e323a" /> <!-- Color cuando no está seleccionado -->
+</selector>
+
+

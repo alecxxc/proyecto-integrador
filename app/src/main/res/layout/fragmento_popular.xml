@@ -8,6 +8,45 @@
     tools:context="com.example.integrative_project.InicioFragmento">
 
     <View
+        android:id="@+id/rectangle15"
+        android:layout_width="160dp"
+        android:layout_height="157dp"
+
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="6dp"
+        android:background="@drawable/colorborde"
+        app:layout_constraintEnd_toStartOf="@+id/homeTextView6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/horizontalLineeventos" />
+
+    <View
+        android:id="@+id/rectangle16"
+        android:layout_width="160dp"
+        android:layout_height="157dp"
+
+        android:layout_marginTop="240dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/colorborde"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/horizontalLineeventos"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <View
+        android:id="@+id/rectangle17"
+        android:layout_width="160dp"
+        android:layout_height="157dp"
+
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/colorborde"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rectangle15"
+        app:layout_constraintVertical_bias="0.792" />
+
+    <View
         android:id="@+id/rectangle5"
         android:layout_width="50dp"
         android:layout_height="50dp"
@@ -35,13 +74,67 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
-        android:text="POPULAR"
+        android:text="VENTA"
         android:textColor="@color/white"
         android:textSize="35sp"
+        app:fontFamily="@font/acme"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.336"
         app:layout_constraintStart_toEndOf="@+id/imageView17"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/homeTextView6"
+        android:layout_width="215dp"
+        android:layout_height="99dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="68dp"
+        android:text="!PAGA AHORA POR EFECTY¡"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        app:fontFamily="@font/acme"
+        app:layout_constraintBottom_toTopOf="@+id/rectangle16"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/rectangle15"
+        app:layout_constraintTop_toBottomOf="@+id/horizontalLineeventos"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/homeTextView7"
+        android:layout_width="203dp"
+        android:layout_height="103dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:text="!PAGA AHORA POR NEQUI¡"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        app:fontFamily="@font/acme"
+        app:layout_constraintBottom_toTopOf="@+id/rectangle17"
+        app:layout_constraintEnd_toStartOf="@+id/rectangle16"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rectangle15"
+        app:layout_constraintVertical_bias="0.63" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/homeTextView8"
+        android:layout_width="203dp"
+        android:layout_height="103dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="5dp"
+        android:text="!PAGA AHORA POR TARJETA¡"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        app:fontFamily="@font/acme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.285"
+        app:layout_constraintStart_toEndOf="@+id/rectangle17"
+        app:layout_constraintTop_toBottomOf="@+id/rectangle16"
+        app:layout_constraintVertical_bias="0.386" />
 
     <ImageView
         android:id="@+id/imageView17"
@@ -66,4 +159,37 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/homeTextView" />
+
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/pagoss"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangle15"
+        app:layout_constraintEnd_toEndOf="@+id/rectangle15"
+        app:layout_constraintStart_toStartOf="@+id/rectangle15"
+        app:layout_constraintTop_toTopOf="@+id/rectangle15" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/credito"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangle17"
+        app:layout_constraintEnd_toStartOf="@+id/homeTextView8"
+        app:layout_constraintHorizontal_bias="0.363"
+        app:layout_constraintStart_toStartOf="@+id/rectangle17"
+        app:layout_constraintTop_toTopOf="@+id/rectangle17"
+        app:layout_constraintVertical_bias="0.379" />
+
+    <ImageView
+        android:id="@+id/imageView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/tr"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangle16"
+        app:layout_constraintEnd_toEndOf="@+id/rectangle16"
+        app:layout_constraintStart_toStartOf="@+id/rectangle16"
+        app:layout_constraintTop_toTopOf="@+id/rectangle16" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
