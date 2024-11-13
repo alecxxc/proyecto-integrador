@@ -319,7 +319,7 @@
         android:textColor="@color/black"
         android:textSize="15sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView10"
+        app:layout_constraintStart_toEndOf="@+id/imgev2"
         app:layout_constraintTop_toTopOf="@+id/rectangle14" />
 
     <View
@@ -384,7 +384,7 @@
         app:layout_constraintTop_toTopOf="@+id/rectangle14" />
 
     <ImageView
-        android:id="@+id/imageView10"
+        android:id="@+id/imgev2"
         android:layout_width="199dp"
         android:layout_height="129dp"
         android:layout_marginStart="13dp"
